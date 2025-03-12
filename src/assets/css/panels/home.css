@@ -14,11 +14,11 @@
 .status-server {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background: var(--background);
+    background: transparent;
     width: 25rem;
-    height: 3rem;
+    height: 4rem;
     color: var(--color);
     border-radius: 10px;
     margin-top: 3rem;
@@ -27,7 +27,7 @@
 }
 
 .server-status-icon {
-    height: 3.3rem;
+    height: 10.3rem;
 }
 
 .server-status-name {
@@ -253,7 +253,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    border: solid 3px var(--element-color);
+    background-color: orange;
     border-radius: 15px;
     height: 3.2rem;
     padding-right: 1.9rem;
@@ -317,7 +317,6 @@
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
-    color: var(--element-color);
     margin: 0 1.5rem;
 }
 
